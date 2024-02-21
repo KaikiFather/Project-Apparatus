@@ -117,7 +117,6 @@ namespace ProjectApparatus
             UI.Tab(GetString("players"), ref UI.nTab, UI.Tabs.Players);
             UI.Tab(GetString("graphics"), ref UI.nTab, UI.Tabs.Graphics);
             UI.Tab(GetString("upgrades"), ref UI.nTab, UI.Tabs.Upgrades);
-            UI.Tab(GetString("moons"), ref UI.nTab, UI.Tabs.Moons);
             UI.Tab(GetString("settings"), ref UI.nTab, UI.Tabs.Settings);
             GUILayout.EndHorizontal();
 

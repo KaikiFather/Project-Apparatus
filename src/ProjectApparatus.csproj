@@ -64,6 +64,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
+    <Compile Include="Lang\es_ES.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>es_ES.resx</DependentUpon>
+    </Compile>
     <Compile Include="Lang\ru_RU.Designer.cs">
       <DependentUpon>ru_RU.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -92,6 +97,10 @@
     <EmbeddedResource Include="Lang\de_DE.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>de_DE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lang\es_ES.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>es_ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Lang\ru_RU.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -517,6 +526,161 @@
       <HintPath>Resources\UnityEngine.XRModule.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\AmazingAssets.TerrainToMesh.dll" />
+    <Content Include="Resources\Assembly-CSharp-firstpass.dll" />
+    <Content Include="Resources\Assembly-CSharp.dll" />
+    <Content Include="Resources\ClientNetworkTransform.dll" />
+    <Content Include="Resources\DissonanceVoip.dll" />
+    <Content Include="Resources\Facepunch Transport for Netcode for GameObjects.dll" />
+    <Content Include="Resources\Facepunch.Steamworks.Win64.dll" />
+    <Content Include="Resources\Mono.Security.dll" />
+    <Content Include="Resources\mscorlib.dll" />
+    <Content Include="Resources\netstandard.dll" />
+    <Content Include="Resources\Newtonsoft.Json.dll" />
+    <Content Include="Resources\System.ComponentModel.Composition.dll" />
+    <Content Include="Resources\System.Configuration.dll" />
+    <Content Include="Resources\System.Core.dll" />
+    <Content Include="Resources\System.Data.DataSetExtensions.dll" />
+    <Content Include="Resources\System.Data.dll" />
+    <Content Include="Resources\System.dll" />
+    <Content Include="Resources\System.Drawing.dll" />
+    <Content Include="Resources\System.EnterpriseServices.dll" />
+    <Content Include="Resources\System.IO.Compression.dll" />
+    <Content Include="Resources\System.IO.Compression.FileSystem.dll" />
+    <Content Include="Resources\System.Net.Http.dll" />
+    <Content Include="Resources\System.Numerics.dll" />
+    <Content Include="Resources\System.Runtime.dll" />
+    <Content Include="Resources\System.Runtime.Serialization.dll" />
+    <Content Include="Resources\System.Security.dll" />
+    <Content Include="Resources\System.ServiceModel.Internals.dll" />
+    <Content Include="Resources\System.Transactions.dll" />
+    <Content Include="Resources\System.Xml.dll" />
+    <Content Include="Resources\System.Xml.Linq.dll" />
+    <Content Include="Resources\Unity.AI.Navigation.dll" />
+    <Content Include="Resources\Unity.Animation.Rigging.dll" />
+    <Content Include="Resources\Unity.Animation.Rigging.DocCodeExamples.dll" />
+    <Content Include="Resources\Unity.Burst.dll" />
+    <Content Include="Resources\Unity.Burst.Unsafe.dll" />
+    <Content Include="Resources\Unity.Collections.dll" />
+    <Content Include="Resources\Unity.Collections.LowLevel.ILSupport.dll" />
+    <Content Include="Resources\Unity.InputSystem.dll" />
+    <Content Include="Resources\Unity.InputSystem.ForUI.dll" />
+    <Content Include="Resources\Unity.Jobs.dll" />
+    <Content Include="Resources\Unity.Mathematics.dll" />
+    <Content Include="Resources\Unity.Multiplayer.Tools.Common.dll" />
+    <Content Include="Resources\Unity.Multiplayer.Tools.MetricTypes.dll" />
+    <Content Include="Resources\Unity.Multiplayer.Tools.NetStats.dll" />
+    <Content Include="Resources\Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll" />
+    <Content Include="Resources\Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll" />
+    <Content Include="Resources\Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll" />
+    <Content Include="Resources\Unity.Multiplayer.Tools.NetStatsReporting.dll" />
+    <Content Include="Resources\Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll" />
+    <Content Include="Resources\Unity.Multiplayer.Tools.NetworkSolutionInterface.dll" />
+    <Content Include="Resources\Unity.Netcode.Components.dll" />
+    <Content Include="Resources\Unity.Netcode.Runtime.dll" />
+    <Content Include="Resources\Unity.Networking.Transport.dll" />
+    <Content Include="Resources\Unity.ProBuilder.Csg.dll" />
+    <Content Include="Resources\Unity.ProBuilder.dll" />
+    <Content Include="Resources\Unity.ProBuilder.KdTree.dll" />
+    <Content Include="Resources\Unity.ProBuilder.Poly2Tri.dll" />
+    <Content Include="Resources\Unity.ProBuilder.Stl.dll" />
+    <Content Include="Resources\Unity.Profiling.Core.dll" />
+    <Content Include="Resources\Unity.RenderPipelines.Core.Runtime.dll" />
+    <Content Include="Resources\Unity.RenderPipelines.Core.ShaderLibrary.dll" />
+    <Content Include="Resources\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll" />
+    <Content Include="Resources\Unity.RenderPipelines.HighDefinition.Runtime.dll" />
+    <Content Include="Resources\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" />
+    <Content Include="Resources\Unity.Services.Authentication.dll" />
+    <Content Include="Resources\Unity.Services.Core.Analytics.dll" />
+    <Content Include="Resources\Unity.Services.Core.Configuration.dll" />
+    <Content Include="Resources\Unity.Services.Core.Device.dll" />
+    <Content Include="Resources\Unity.Services.Core.dll" />
+    <Content Include="Resources\Unity.Services.Core.Environments.dll" />
+    <Content Include="Resources\Unity.Services.Core.Environments.Internal.dll" />
+    <Content Include="Resources\Unity.Services.Core.Internal.dll" />
+    <Content Include="Resources\Unity.Services.Core.Networking.dll" />
+    <Content Include="Resources\Unity.Services.Core.Registration.dll" />
+    <Content Include="Resources\Unity.Services.Core.Scheduler.dll" />
+    <Content Include="Resources\Unity.Services.Core.Telemetry.dll" />
+    <Content Include="Resources\Unity.Services.Core.Threading.dll" />
+    <Content Include="Resources\Unity.Services.QoS.dll" />
+    <Content Include="Resources\Unity.Services.Relay.dll" />
+    <Content Include="Resources\Unity.TextMeshPro.dll" />
+    <Content Include="Resources\Unity.Timeline.dll" />
+    <Content Include="Resources\Unity.VisualEffectGraph.Runtime.dll" />
+    <Content Include="Resources\UnityEngine.AccessibilityModule.dll" />
+    <Content Include="Resources\UnityEngine.AIModule.dll" />
+    <Content Include="Resources\UnityEngine.AndroidJNIModule.dll" />
+    <Content Include="Resources\UnityEngine.AnimationModule.dll" />
+    <Content Include="Resources\UnityEngine.ARModule.dll" />
+    <Content Include="Resources\UnityEngine.AssetBundleModule.dll" />
+    <Content Include="Resources\UnityEngine.AudioModule.dll" />
+    <Content Include="Resources\UnityEngine.ClothModule.dll" />
+    <Content Include="Resources\UnityEngine.ClusterInputModule.dll" />
+    <Content Include="Resources\UnityEngine.ClusterRendererModule.dll" />
+    <Content Include="Resources\UnityEngine.ContentLoadModule.dll" />
+    <Content Include="Resources\UnityEngine.CoreModule.dll" />
+    <Content Include="Resources\UnityEngine.CrashReportingModule.dll" />
+    <Content Include="Resources\UnityEngine.DirectorModule.dll" />
+    <Content Include="Resources\UnityEngine.dll" />
+    <Content Include="Resources\UnityEngine.DSPGraphModule.dll" />
+    <Content Include="Resources\UnityEngine.GameCenterModule.dll" />
+    <Content Include="Resources\UnityEngine.GIModule.dll" />
+    <Content Include="Resources\UnityEngine.GridModule.dll" />
+    <Content Include="Resources\UnityEngine.HotReloadModule.dll" />
+    <Content Include="Resources\UnityEngine.ImageConversionModule.dll" />
+    <Content Include="Resources\UnityEngine.IMGUIModule.dll" />
+    <Content Include="Resources\UnityEngine.InputLegacyModule.dll" />
+    <Content Include="Resources\UnityEngine.InputModule.dll" />
+    <Content Include="Resources\UnityEngine.JSONSerializeModule.dll" />
+    <Content Include="Resources\UnityEngine.LocalizationModule.dll" />
+    <Content Include="Resources\UnityEngine.NVIDIAModule.dll" />
+    <Content Include="Resources\UnityEngine.ParticleSystemModule.dll" />
+    <Content Include="Resources\UnityEngine.PerformanceReportingModule.dll" />
+    <Content Include="Resources\UnityEngine.Physics2DModule.dll" />
+    <Content Include="Resources\UnityEngine.PhysicsModule.dll" />
+    <Content Include="Resources\UnityEngine.ProfilerModule.dll" />
+    <Content Include="Resources\UnityEngine.PropertiesModule.dll" />
+    <Content Include="Resources\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" />
+    <Content Include="Resources\UnityEngine.ScreenCaptureModule.dll" />
+    <Content Include="Resources\UnityEngine.SharedInternalsModule.dll" />
+    <Content Include="Resources\UnityEngine.SpriteMaskModule.dll" />
+    <Content Include="Resources\UnityEngine.SpriteShapeModule.dll" />
+    <Content Include="Resources\UnityEngine.StreamingModule.dll" />
+    <Content Include="Resources\UnityEngine.SubstanceModule.dll" />
+    <Content Include="Resources\UnityEngine.SubsystemsModule.dll" />
+    <Content Include="Resources\UnityEngine.TerrainModule.dll" />
+    <Content Include="Resources\UnityEngine.TerrainPhysicsModule.dll" />
+    <Content Include="Resources\UnityEngine.TextCoreFontEngineModule.dll" />
+    <Content Include="Resources\UnityEngine.TextCoreTextEngineModule.dll" />
+    <Content Include="Resources\UnityEngine.TextRenderingModule.dll" />
+    <Content Include="Resources\UnityEngine.TilemapModule.dll" />
+    <Content Include="Resources\UnityEngine.TLSModule.dll" />
+    <Content Include="Resources\UnityEngine.UI.dll" />
+    <Content Include="Resources\UnityEngine.UIElementsModule.dll" />
+    <Content Include="Resources\UnityEngine.UIModule.dll" />
+    <Content Include="Resources\UnityEngine.UmbraModule.dll" />
+    <Content Include="Resources\UnityEngine.UnityAnalyticsCommonModule.dll" />
+    <Content Include="Resources\UnityEngine.UnityAnalyticsModule.dll" />
+    <Content Include="Resources\UnityEngine.UnityConnectModule.dll" />
+    <Content Include="Resources\UnityEngine.UnityCurlModule.dll" />
+    <Content Include="Resources\UnityEngine.UnityTestProtocolModule.dll" />
+    <Content Include="Resources\UnityEngine.UnityWebRequestAssetBundleModule.dll" />
+    <Content Include="Resources\UnityEngine.UnityWebRequestAudioModule.dll" />
+    <Content Include="Resources\UnityEngine.UnityWebRequestModule.dll" />
+    <Content Include="Resources\UnityEngine.UnityWebRequestTextureModule.dll" />
+    <Content Include="Resources\UnityEngine.UnityWebRequestWWWModule.dll" />
+    <Content Include="Resources\UnityEngine.VehiclesModule.dll" />
+    <Content Include="Resources\UnityEngine.VFXModule.dll" />
+    <Content Include="Resources\UnityEngine.VideoModule.dll" />
+    <Content Include="Resources\UnityEngine.VirtualTexturingModule.dll" />
+    <Content Include="Resources\UnityEngine.VRModule.dll" />
+    <Content Include="Resources\UnityEngine.WindModule.dll" />
+    <Content Include="Resources\UnityEngine.XRModule.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(SolutionDir)src\bin\Debug\ProjectApparatus.dll" "$(%25USERPROFILE%25)Documents\Lethal Company Apparatus" /Y</PostBuildEvent>
+  </PropertyGroup>
 </Project>
