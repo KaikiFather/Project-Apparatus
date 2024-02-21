@@ -22,6 +22,7 @@ namespace ProjectApparatus
         {"en_US", "English"},
         {"ru_RU", "Ðóññêèé"},
         {"de_DE", "German"},
+        {"es_ES", "Español"},
         //new languages here, for example:
         //{"ts_TS", "Test Language" }
     };
@@ -110,13 +111,14 @@ namespace ProjectApparatus
         private void MenuContent(int windowID)
         {
             GUILayout.BeginHorizontal();
-            UI.Tab(GetString("start"), ref UI.nTab, UI.Tabs.Start);
+            //UI.Tab(GetString("start"), ref UI.nTab, UI.Tabs.Start);
             UI.Tab(GetString("self"), ref UI.nTab, UI.Tabs.Self);
             UI.Tab(GetString("misc"), ref UI.nTab, UI.Tabs.Misc);
             UI.Tab(GetString("esp"), ref UI.nTab, UI.Tabs.ESP);
             UI.Tab(GetString("players"), ref UI.nTab, UI.Tabs.Players);
             UI.Tab(GetString("graphics"), ref UI.nTab, UI.Tabs.Graphics);
             UI.Tab(GetString("upgrades"), ref UI.nTab, UI.Tabs.Upgrades);
+            //UI.Tab(GetString("moons"), ref UI.nTab, UI.Tabs.Moons);
             UI.Tab(GetString("settings"), ref UI.nTab, UI.Tabs.Settings);
             GUILayout.EndHorizontal();
 

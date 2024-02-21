@@ -14,7 +14,7 @@ public class LocalizationManager
 {
     private static ResourceManager resourceManager;
     // for default language use English
-    public static string currentLanguage = "en_US";
+    public static string currentLanguage = "es_ES";
 
     static LocalizationManager()
     {
@@ -33,6 +33,9 @@ public class LocalizationManager
                 break;
             case "de_DE":
                 resourceManager = new ResourceManager(typeof(de_DE));
+                break;
+            case "es_ES":
+                resourceManager = new ResourceManager(typeof(es_ES));
                 break;
             // add next language here, for example:
             //case "ts_TS":
